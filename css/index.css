@@ -219,6 +219,9 @@ body::-webkit-scrollbar {
     width: 20vw;
     margin-left: 2vw;
 }
+.submit-ic:hover{
+    padding: 1.2vw 1.2vw !important;
+}
 .submit-ic{
     width: 19vw;
     background-color: rgba(55, 59, 77, 1);
@@ -228,6 +231,7 @@ body::-webkit-scrollbar {
     border: 0px;
     font-weight: 700;
     font-style: italic;
+    cursor: pointer;
 }
 .discord-image{
     width: 20vw;
@@ -240,6 +244,7 @@ body::-webkit-scrollbar {
     width: 33.33vw;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 .submission-text{
     font-size: 18px;
@@ -261,6 +266,10 @@ body::-webkit-scrollbar {
 figure.social-icons {
     margin: 0px 1vw;
     width: 3vw;
+    cursor: pointer;
+}
+.social-icons img:hover{
+    width: 3.4vw !important;
 }
 
 /* media query for extra-wide screen */
