@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Courier+Prime">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./assets/parallax.js-1.5.0/parallax.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     <!-- <title>Document</title> -->
 </head>
 <body>
@@ -17,18 +22,20 @@
                     <img src="./assets/images/Jack.png" class="jack-image" />
                 </figure>
                 <aside class="head-right">
-                    <figure class="img-class">
+                    <figure class="img-class" data-aos="zoom-in" data-aos-delay="500">
                         <img src="./assets/images/sigil_wordmark_glow_optimized.png" class="sigil-text" />
                     </figure>
-                    <figure class="img-class">
+                    <figure class="img-class" data-aos="zoom-out" data-aos-delay="1000">
                         <img src="./assets/images/sigil_logo_glow_optimized.png" class="sigil-logo" />
                     </figure>
-                    <p class="banner-head-text">
-                        ADVENTURE, EVERYWHERE.
-                    </p>
-                    <p class="banner-sub-text">
-                        Coming to your phone in 2021
-                    </p>
+                    <article data-aos="zoom-in" data-aos-delay="1300">
+                        <p class="banner-head-text">
+                            ADVENTURE, EVERYWHERE.
+                        </p>
+                        <p class="banner-sub-text">
+                            Coming to your phone in 2021
+                        </p>
+                    </article>
                 </aside>
             </article>
         </article>
@@ -36,12 +43,12 @@
 
     <!-- Second Section -->
 
-    <section class="second-banner item-centering banner-height">
-        <article class="d-flex align-item-center justify-content-center">
-            <figure class="mobile-image">
+    <section class="second-banner item-centering banner-height" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/background-sigil-multiverse.jpg">
+        <article class="d-flex align-item-center justify-content-center second-section-div">
+            <figure class="mobile-image" data-aos="zoom-in" data-aos-delay="500">
                 <img src="assets/images/sigil_iPhone_screen.png" class="mobile-icon" />
             </figure>
-            <aside class="mobile-side">
+            <aside class="mobile-side" data-aos="fade-left" data-aos-delay="1000">
                 <article class="mobile-sub-div">
                     <p class="mobile-head">
                         Hello human
@@ -56,9 +63,9 @@
 
     <!-- Third Section -->
 
-    <section class="third-banner banner-height">
+    <section data-aos="slide-up" class="third-banner banner-height">
         <article>
-            <aside class="wheel-side">
+            <aside data-aos="fade-left" data-aos-delay="1000" class="wheel-side">
                 <article class="wheel-sub-div color-black">
                     <p class="wheel-sub-head">
                         The Gloam has seen better days, it's currently overrun by creatures who are fleeing from a massive intradimensional war...
@@ -72,16 +79,16 @@
 
     <section class="forth-banner item-centering banner-height">
         <article class="d-flex forth-inner">
-            <figure class="avatar-image">
+            <figure class="avatar-image" data-aos="zoom-in" data-aos-delay="500">
                 <img src="assets/images/avatar-baseball-bat.png" class="mobile-icon" />
             </figure>
             <aside class="avatar-side">
-                <article class="wheel-sub-div color-black">
+                <article class="wheel-sub-div color-black" data-aos="fade-left" data-aos-delay="1500">
                     <p class="wheel-sub-head">
                         Someone need to protect The Gloam from the maniacal beasts. It's time to put on a mask, grab a wand and a grimoire and get to work!
                     </p>
                 </article>
-                <figure class="avatar-inner-image">
+                <figure class="avatar-inner-image" data-aos="zoom-out" data-aos-delay="1000">
                     <img src="assets/images/avatar-casting-sigil.png" class="mobile-icon" />
                 </figure>
             </aside>
@@ -90,8 +97,8 @@
 
     <!-- Fifth Section -->
 
-    <section class="fifth-banner banner-height">
-        <aside class="wheel-side">
+    <section class="fifth-banner banner-height" data-aos="slide-up">
+        <aside class="wheel-side" data-aos="fade-left" data-aos-delay="1000">
             <article class="wheel-sub-div color-white">
                 <p class="wheel-sub-head">
                     Engage in magical combat and grow more powerful as you unlock the mysteries of SIGIL...
@@ -102,8 +109,8 @@
 
     <!-- Sixth Section -->
 
-    <section class="sixth-banner banner-height">
-        <aside class="wheel-side">
+    <section class="sixth-banner banner-height" data-aos="slide-up">
+        <aside class="wheel-side" data-aos="fade-right" data-aos-delay="1000">
             <article class="wheel-sub-div color-white">
                 <p class="wheel-sub-head left-padding">
                     The Gloam is counting on you...
@@ -120,24 +127,24 @@
     <footer>
         <section class="footer-section">
             <article class="first-section">
-                <p class="sign-up">
+                <p class="sign-up" data-aos="fade-right" data-aos-delay="300">
                     Sign up to join the adventure!
                 </p>
-                <article class="submit-btn">
+                <article class="submit-btn" data-aos="fade-right" data-aos-delay="600">
                     <input type="button" value="Submit" class="submit-ic" />
                 </article>
-                <article class="discord-image">
+                <article class="discord-image" data-aos="zoom-in" data-aos-delay="900">
                     <img src="assets/images/button-sigil-discord.png" class="discord-icon" />
                 </article>
             </article>
             <article class="second-section">
-                <article class="footer-inner">
+                <article class="footer-inner" data-aos="zoom-out" data-aos-delay="1200">
                     <p class="submission-text">Thanks for submitting!</p>
                     <figure class="albedo-logo">
                         <img src="assets/images/logo-footer-albedo.png" width="100%" />
                     </figure>
                 </article>
-                <article class="footer-inner justify-content-center">
+                <article class="footer-inner justify-content-center" data-aos="zoom-in" data-aos-delay="1500">
                     <figure class="social-icons">
                         <img src='assets/images/button-sigil-grey-facebook.png' width="100%" />
                     </figure>
@@ -151,7 +158,7 @@
                         <img src='assets/images/button-sigil-grey-instagram.png' width="100%" />
                     </figure>
                 </article>
-                <article class="footer-inner justify-content-end">
+                <article class="footer-inner justify-content-end" data-aos="flip-up" data-aos-delay="1800">
                     <figure class="cmf-logo">
                         <img src='assets/images/logo-footer-CMF.png' width="100%" />
                     </figure>
@@ -161,4 +168,9 @@
     </footer>
 
 </body>
+<script>
+    AOS.init({
+        duration: 1200,
+    });
+</script>
 </html>
