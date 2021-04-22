@@ -1,0 +1,132 @@
+body{
+    margin: 0 !important;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+}
+.item-centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/gloam-background-only.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.center-section{
+    flex-wrap: wrap;
+}
+.jack-image{
+    width: 100%;
+}
+.jack-img-class{
+    width: 28vw;
+    margin: 0px;
+    margin-left: -16vw;
+}
+.img-class{
+    width: 100%;
+    margin: 0px !important;
+}
+.sigil-text{
+    width: 100%;
+}
+.sigil-logo{
+    width: 100%;
+}
+.head-right{
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -8vw;
+}
+.banner-head-text{
+    font-size: 1.5vw;
+    width: 100%;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+.banner-sub-text{
+    font-size: 1.5vw;
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.second-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/background-sigil-multiverse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mobile-image{
+    width: 22vw;
+    margin: 0px;
+}
+.mobile-icon{
+    width: 100%;
+}
+.mobile-side{
+    width: 30vw;
+    margin-left: 10vw;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile-sub-div{
+    width: 18vw;
+}
+.mobile-head{
+    font-size: 2vw;
+    text-align: center;
+}
+.mobile-sub-head{
+    font-size: 1.5vw;
+    text-align: center;
+    letter-spacing: 0.2vw;
+}
+
+
+/* media query for wide screen */
+
+@media only screen and (min-width: 1366px) {
+    .container{
+        max-width: 1400px !important;
+    }
+}
+
+/* media query for normal screen */
+
+@media only screen and (min-width: 700px) and (max-width: 1365px) {
+    .container{
+        max-width: 1200px !important;
+    }
+}
+
+/* media query for mobile */
+
+@media only screen and (max-width: 700px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
