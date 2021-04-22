@@ -57,14 +57,14 @@ body{
     margin-left: -8vw;
 }
 .banner-head-text{
-    font-size: 1.5vw;
+    font-size: 24px;
     width: 100%;
     font-weight: 800;
     color: #fff;
     text-align: center;
 }
 .banner-sub-text{
-    font-size: 1.5vw;
+    font-size: 22px;
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -97,15 +97,181 @@ body{
     width: 18vw;
 }
 .mobile-head{
-    font-size: 2vw;
+    font-size: 35px;
     text-align: center;
 }
 .mobile-sub-head{
-    font-size: 1.5vw;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 0.2vw;
 }
+.third-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/background-sigil-gloam-ferris-wheel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.fifth-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/background-sigil-combat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.sixth-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/background-sigil-character-line-up.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.left-padding{
+    padding-left: 25px;
+    margin-bottom: 5px !important;
+}
+.second-left-padding{
+    padding-left: 50px;
+    margin: 0px !important;
+}
+.forth-banner{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.color-black{
+    color: #000;
+}
+.color-white{
+    color: #fff;
+}
+.forth-inner{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.avatar-image{
+    width: 22vw;
+    margin: 0px !important;
+}
+.avatar-inner-image{
+    width: 55vw;
+    margin: 0px !important;
+}
+.avatar-side{
+    width: 75vw;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wheel-sub-div{
+    width: 35vw;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+.footer-section{
+    padding: 2vw 2vw;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.second-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.sign-up{
+    width: 50vw;
+    padding: 1vw;
+    font-size: 18px;
+    background-color: rgba(255, 230, 135);
+}
+.submit-btn{
+    width: 20vw;
+    margin-left: 5vw;
+}
+.submit-ic{
+    width: 10vw;
+    background-color: rgba(55, 59, 77, 1);
+    padding: 1vw;
+    color: #fff;
+    font-size: 17px;
+    border: 0px;
+    font-weight: 700;
+    font-style: italic;
+}
+.discord-image{
+    width: 20vw;
+    margin-left: 5vw;
+}
+.discord-icon{
+    width: 100%;
+}
+.footer-inner{
+    width: 33.33vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.submission-text{
+    font-size: 18px;
+    width: 100%;
+    color: green;
+}
+.albedo-logo{
+    width: 13vw;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.cmf-logo{
+    margin: 0px;
+    width: 20vw;
+}
+figure.social-icons {
+    margin: 0px 1vw;
+    width: 3vw;
+}
 
+/* media query for extra-wide screen */
+
+@media only screen and (min-width: 2200px) {
+    .wheel-sub-div{
+        font-size: 45px !important;
+    }
+    .banner-head-text{
+        font-size: 45px !important;
+    }
+    .banner-sub-text{
+        font-size: 40px !important;
+    }
+    .mobile-head {
+        font-size: 45px !important;
+    }
+    .mobile-sub-head {
+        font-size: 35px !important;
+    }
+    .sign-up{
+        font-size: 25px !important;
+    }
+    .submit-ic{
+        font-size: 25px !important
+    }
+    .submission-text{
+        font-size: 25px !important;
+    }
+    
+}
 
 /* media query for wide screen */
 
@@ -125,8 +291,95 @@ body{
 
 /* media query for mobile */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 680px) {
+    .jack-img-class {
+        width: 60vw !important;
+    }
+    .head-right {
+        width: 45vw !important;
+        margin-left: -35vw !important;
+    }
+    .mobile-image {
+        width: 50vw !important;
+    }
+    .wheel-sub-div{
+        width: 60vw !important;
+        font-size: 14px !important;
+    }
+    .mobile-sub-head {
+        font-size: 7px !important;
+    }
+    .mobile-head {
+        font-size: 12px !important;
+    }
+    .mobile-side{
+        margin-left: 0px !important;
+    }
+    .left-padding{
+        width: 75vw !important;
+    }
+    .second-left-padding{
+        width: 75vw !important;
+    }
+    
+    /* .banner-height{
+        height: 50vh !important;
+        min-height: 50vh !important;
+        max-height: 50vh !important;
+    } */
+}
+
+@media only screen and (max-width: 1100px) {
     .container{
         max-width: 100% !important;
     }
+    .mobile-sub-div {
+        width: 100% !important;
+    }
+    .mobile-head {
+        font-size: 30px !important;
+    }
+    .mobile-sub-head {
+        font-size: 14px !important;
+    }
+    .home-banner{
+        background-position: center;
+    }
+    .third-banner{
+        background-position: center;
+    }
+    .fifth-banner{
+        background-position: center;
+    }
+    .sixth-banner{
+        background-position: center;
+    }
+    .second-banner {
+        background-position: center;
+    }
+    .banner-head-text{
+        font-size: 20px !important;
+    }
+    .banner-sub-text {
+        font-size: 14px !important;
+    }
+    .wheel-sub-div{
+        width: 35vw !important;
+        font-size: 14px !important;
+    }
+    .avatar-image{
+        width: 30vw !important;
+    }
+    .avatar-side{
+        width: 70vw !important;
+    }
+    .sign-up{
+        font-size: 7px !important;
+    }
+    .submit-ic{
+        font-size: 7px !important
+    }
+    .submission-text{
+        font-size: 7px !important;
+    }    
 }
