@@ -151,10 +151,12 @@ body::-webkit-scrollbar {
 .left-padding{
     padding-left: 25px;
     margin-bottom: 5px !important;
+    text-align: left !important;
 }
 .second-left-padding{
     padding-left: 50px;
     margin: 0px !important;
+    text-align: left !important;
 }
 .forth-banner{
     min-height: 100vh;
@@ -350,8 +352,9 @@ figure.social-icons {
     .second-left-padding{
         width: 75vw !important;
     }
-    .second-banner {
-
+    .banner-height {
+        overflow-x: hidden;
+        width: 100vw;
     }
     .second-section-div{
         flex-wrap: wrap;
@@ -360,11 +363,37 @@ figure.social-icons {
         width: 55vw !important;
     }
     
-    /* .banner-height{
-        height: 50vh !important;
-        min-height: 50vh !important;
-        max-height: 50vh !important;
-    } */
+    .third-banner{
+        align-items: flex-end !important;
+        justify-content: center !important;
+    }
+    .fifth-banner{
+        align-items: flex-end !important;
+        justify-content: center !important;
+    }
+    .forth-inner{
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .avatar-inner-image{
+        width: 75vw !important;
+        order: 1;
+    }
+    .avatar-text{
+        order: 2;
+    }
+    .wheel-sub-head{
+        text-align: center;
+    }
+    .avatar-image {
+        width: 23vw !important;
+    }
+    .avatar-side{
+        justify-content: flex-start;
+    }
+    .footer-section{
+        padding-bottom: 25vw !important;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
