@@ -196,7 +196,10 @@ body::-webkit-scrollbar {
 .footer-section{
     padding: 2vw 2vw;
     overflow-x: hidden;
-    padding-bottom: 6vw !important;
+    padding-bottom: 12vw !important;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 .first-section{
     display: flex;
@@ -212,11 +215,12 @@ body::-webkit-scrollbar {
     margin-top: 2vw;
 }
 .sign-up{
-    width: 50vw;
+    width: 46vw;
     padding: 1vw;
     font-size: 18px;
     font-weight: 900;
     background-color: rgba(255, 230, 135);
+    margin: 0px !important;
 }
 .submit-btn{
     width: 20vw;
@@ -244,7 +248,7 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 .footer-inner{
-    width: 33.33vw;
+    width: 31.33vw;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -398,7 +402,7 @@ figure.social-icons {
         font-size: 14px !important;
     }
     .mobile-head {
-        font-size: 12px !important;
+        font-size: 16px !important;
     }
     .mobile-side{
         margin-left: 0px !important;
@@ -475,10 +479,19 @@ figure.social-icons {
         order: 1;
     }
     .second-item{
-        order: 3;
+        order: 2;
     }
     .third-item{
-        order: 2;
+        order: 3;
+    }
+    .forth-item{
+        order: 4;
+    }
+    .fifth-item{
+        order: 5;
+    }
+    .footer-section{
+        justify-content: center;
     }
     .second-section{
         flex-wrap: wrap;
@@ -494,6 +507,9 @@ figure.social-icons {
     .submission-text{
         font-size: 10px !important;
     } 
+    .discord-image{
+        margin-top: 4vw !important;
+    }
     .sign-up {
         font-size: 10px !important;
     }   
