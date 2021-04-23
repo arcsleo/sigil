@@ -1,178 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Courier+Prime">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./assets/parallax.js-1.5.0/parallax.js"></script>
-    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-    <!-- <title>Document</title> -->
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.google.com/specimen/Courier+Prime"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@2.3.0/dist/aos.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="./assets/parallax.js-1.5.0/parallax.js"></script>
+        <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+        <link
+            rel="shortcut icon"
+            type="image/jpg"
+            href="./assets/images/sigil_logo_glow_optimized.png"
+        />
+        <title>Sigil</title>
+    </head>
+    <body>
+        <!-- Banner -->
+        <section
+            class="home-banner item-centering banner-height"
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="assets/images/gloam-background-only.jpg"
+        >
+            <article class="container item-centering">
+                <article
+                    class="center-section item-centering"
+                    data-aos="fade-up"
+                    data-aos-duration="400"
+                >
+                    <figure class="jack-img-class">
+                        <img
+                            data-aos="fade-up"
+                            data-aos-duration="1600"
+                            src="./assets/images/Jack.png"
+                            class="jack-image"
+                        />
+                    </figure>
+                    <aside class="head-right">
+                        <figure
+                            class="img-class"
+                            data-aos="zoom-in"
+                            data-aos-duration="800"
+                        >
+                            <img
+                                src="./assets/images/sigil_wordmark_glow_optimized.png"
+                                class="sigil-text"
+                            />
+                        </figure>
+                        <figure
+                            class="img-class"
+                            data-aos="zoom-in"
+                            data-aos-duration="1600"
+                        >
+                            <img
+                                src="./assets/images/sigil_logo_glow_optimized.png"
+                                class="sigil-logo"
+                            />
+                        </figure>
+                        <article>
+                            <p
+                                class="banner-head-text"
+                                data-aos="fade-up"
+                                data-aos-duration="2000"
+                            >
+                                ADVENTURE, EVERYWHERE.
+                            </p>
+                            <p
+                                class="banner-sub-text"
+                                data-aos="fade-up"
+                                data-aos-duration="2400"
+                            >
+                                Coming to your phone in 2021
+                            </p>
+                        </article>
+                    </aside>
+                </article>
+            </article>
+        </section>
 
-    <!-- Banner -->
-    <section class="home-banner item-centering banner-height">
-        <article class="container item-centering">
-            <article class="center-section item-centering">
-                <figure class="jack-img-class">
-                    <img src="./assets/images/Jack.png" class="jack-image" />
+        <!-- Second Section -->
+
+        <section
+            class="second-banner item-centering banner-height"
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="assets/images/background-sigil-multiverse.jpg"
+        >
+            <article
+                class="d-flex align-item-center justify-content-center second-section-div"
+            >
+                <figure
+                    class="mobile-image"
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                >
+                    <img
+                        src="assets/images/sigil_iPhone_screen.png"
+                        class="mobile-icon"
+                    />
                 </figure>
-                <aside class="head-right">
-                    <figure class="img-class" data-aos="zoom-in" data-aos-duration="800">
-                        <img src="./assets/images/sigil_wordmark_glow_optimized.png" class="sigil-text" />
-                    </figure>
-                    <figure class="img-class" data-aos="zoom-out" data-aos-duration="1600">
-                        <img src="./assets/images/sigil_logo_glow_optimized.png" class="sigil-logo" />
-                    </figure>
-                    <article data-aos="zoom-in" data-aos-duration="2000">
-                        <p class="banner-head-text">
-                            ADVENTURE, EVERYWHERE.
-                        </p>
-                        <p class="banner-sub-text">
-                            Coming to your phone in 2021
+                <aside
+                    class="mobile-side"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                >
+                    <article class="mobile-sub-div">
+                        <p class="mobile-head">Hello Human</p>
+                        <p class="mobile-sub-head">
+                            Would you like to experience adventure? Would you
+                            like to travel to the centre of the multiverse, to a
+                            magical dimension called the Gloam?
                         </p>
                     </article>
                 </aside>
             </article>
-        </article>
-    </section>
+        </section>
 
-    <!-- Second Section -->
+        <!-- Third Section -->
 
-    <section class="second-banner item-centering banner-height" class="parallax-window" data-parallax="scroll" data-image-src="assets/images/background-sigil-multiverse.jpg">
-        <article class="d-flex align-item-center justify-content-center second-section-div">
-            <figure class="mobile-image" data-aos="zoom-in" data-aos-duration="500">
-                <img src="assets/images/sigil_iPhone_screen.png" class="mobile-icon" />
-            </figure>
-            <aside class="mobile-side" data-aos="fade-left" data-aos-duration="1000">
-                <article class="mobile-sub-div">
-                    <p class="mobile-head">
-                        Hello Human
-                    </p>
-                    <p class="mobile-sub-head">
-                        Would you like to experience adventure? Would you like to travel to the centre of the multiverse, to a magical dimension called the Gloam?
-                    </p>
-                </article>
-            </aside>
-        </article>
-    </section>
-
-    <!-- Third Section -->
-
-    <section data-aos="slide-up" class="third-banner banner-height">
-        <article>
-            <aside data-aos="fade-left" data-aos-duration="8000" class="wheel-side">
-                <article class="wheel-sub-div color-black">
-                    <p class="wheel-sub-head">
-                        The Gloam has seen better days, it's currently overrun by creatures who are fleeing from a massive intradimensional war...
-                    </p>
-                </article>
-            </aside>
-        </article>
-    </section>
-
-    <!-- Forth Section -->
-
-    <section class="forth-banner item-centering banner-height">
-        <article class="d-flex forth-inner">
-            <figure class="avatar-image" data-aos="fade-left" data-aos-duration="400">
-                <img src="assets/images/avatar-baseball-bat.png" class="mobile-icon" />
-            </figure>
-            <aside class="avatar-side">
-                <article class="wheel-sub-div color-black avatar-text" data-aos="fade-left" data-aos-duration="1200">
-                    <p class="wheel-sub-head">
-                        Someone need to protect The Gloam from the maniacal beasts. It's time to put on a mask, grab a wand and a grimoire and get to work!
-                    </p>
-                </article>
-                <figure class="avatar-inner-image" data-aos="fade-left" data-aos-duration="900">
-                    <img src="assets/images/avatar-casting-sigil.png" class="mobile-icon" />
-                </figure>
-            </aside>
-        </article>
-    </section>       
-
-    <!-- Fifth Section -->
-
-    <section class="fifth-banner banner-height" data-aos="slide-up">
-        <aside class="wheel-side" data-aos="fade-left" data-aos-duration="8000">
-            <article class="wheel-sub-div color-white">
-                <p class="wheel-sub-head">
-                    Engage in magical combat and grow more powerful as you unlock the mysteries of SIGIL...
-                </p>
-            </article>
-        </aside>
-    </section>    
-
-    <!-- Sixth Section -->
-
-    <section class="sixth-banner banner-height" data-aos="slide-up">
-        <aside class="wheel-side" data-aos="fade-up" data-aos-duration="4000">
-            <article class="wheel-sub-div color-white">
-                <p class="wheel-sub-head left-padding">
-                    The Gloam is counting on you...
-                </p>
-                <p class="wheel-sub-head second-left-padding">
-                    The Gloam is counting on you...
-                </p>
-            </article>
-        </aside>
-    </section>  
-    
-    <!-- Footer -->
-
-    <footer>
-        <section class="footer-section">
-            <!-- <article class="first-section">
-
-            </article>
-            <article class="second-section">
-
-            </article> -->
-            <p class="sign-up first-item" data-aos="fade-right" data-aos-duration="300">
-                Sign up to join the adventure!
-            </p>
-            <article class="submit-btn first-item" data-aos="fade-right" data-aos-duration="600">
-                <input type="button" value="Submit" class="submit-ic" />
-            </article>
-            <article class="discord-image third-item" data-aos="zoom-in" data-aos-duration="900">
-                <img src="assets/images/button-sigil-discord.png" class="discord-icon" />
-            </article>
-            <article class="footer-inner second-item" data-aos="zoom-out" data-aos-duration="1200" data-aos-offset="0">
-                <p class="submission-text">Thanks for submitting!</p>
-                <figure class="albedo-logo">
-                    <img src="assets/images/logo-footer-albedo.png" width="100%" />
-                </figure>
-            </article>
-            <article class="footer-inner fifth-item justify-content-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="0">
-                <figure class="social-icons">
-                    <img src='assets/images/button-sigil-grey-facebook.png' width="100%" />
-                </figure>
-                <figure class="social-icons">
-                    <img src='assets/images/button-sigil-grey-twitter.png' width="100%" />
-                </figure>
-                <figure class="social-icons">
-                    <img src='assets/images/button-sigil-grey-youtube.png' width="100%" />
-                </figure>
-                <figure class="social-icons">
-                    <img src='assets/images/button-sigil-grey-instagram.png' width="100%" />
-                </figure>
-            </article>
-            <article class="footer-inner forth-item justify-content-end" data-aos="flip-up" data-aos-duration="1800" data-aos-offset="0">
-                <figure class="cmf-logo">
-                    <img src='assets/images/logo-footer-CMF.png' width="100%" />
-                </figure>
+        <section
+            class="third-banner banner-height"
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="assets/images/background-sigil-gloam-ferris-wheel.jpg"
+        >
+            <article>
+                <aside class="wheel-side">
+                    <article class="wheel-sub-div color-black">
+                        <p class="wheel-sub-head">
+                            The Gloam has seen better days, it's currently
+                            overrun by creatures who are fleeing from a massive
+                            intradimensional war...
+                        </p>
+                    </article>
+                </aside>
             </article>
         </section>
-    </footer>
 
-</body>
-<script>
-    AOS.init({
-        duration: 1200,
-    });
-</script>
+        <!-- Forth Section -->
+
+        <section class="forth-banner item-centering banner-height">
+            <article class="d-flex forth-inner">
+                <figure
+                    class="avatar-image"
+                    data-aos="fade-left"
+                    data-aos-duration="400"
+                >
+                    <img
+                        src="assets/images/avatar-baseball-bat.png"
+                        class="mobile-icon"
+                    />
+                </figure>
+                <aside class="avatar-side">
+                    <article
+                        class="wheel-sub-div color-black avatar-text"
+                        data-aos="fade-left"
+                        data-aos-duration="1600"
+                    >
+                        <p class="wheel-sub-head">
+                            Someone need to protect The Gloam from the maniacal
+                            beasts. It's time to put on a mask, grab a wand and
+                            a grimoire and get to work!
+                        </p>
+                    </article>
+                    <figure
+                        class="avatar-inner-image"
+                        data-aos="fade-left"
+                        data-aos-duration="900"
+                    >
+                        <img
+                            src="assets/images/avatar-casting-sigil.png"
+                            class="mobile-icon"
+                        />
+                    </figure>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Fifth Section -->
+
+        <section
+            class="fifth-banner banner-height"
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="assets/images/background-sigil-combat.jpg"
+        >
+            <aside
+                class="wheel-side"
+                data-aos="fade-left"
+                data-aos-duration="8000"
+            >
+                <article class="wheel-sub-div color-white">
+                    <p class="wheel-sub-head">
+                        Engage in magical combat and grow more powerful as you
+                        unlock the mysteries of SIGIL...
+                    </p>
+                </article>
+            </aside>
+        </section>
+
+        <!-- Sixth Section -->
+
+        <section
+            class="sixth-banner banner-height"
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="assets/images/background-sigil-character-line-up.jpg"
+        >
+            <aside
+                class="wheel-side"
+                data-aos="fade-up"
+                data-aos-duration="4000"
+            >
+                <article class="wheel-sub-div color-white">
+                    <p class="wheel-sub-head left-padding">
+                        The Gloam is counting on you...
+                    </p>
+                    <p class="wheel-sub-head second-left-padding">
+                        The Gloam is counting on you...
+                    </p>
+                </article>
+            </aside>
+        </section>
+
+        <!-- Footer -->
+
+        <footer>
+            <section class="footer-section">
+                <p
+                    class="sign-up first-item"
+                    data-aos="fade-right"
+                    data-aos-duration="300"
+                >
+                    Sign up to join the adventure!
+                </p>
+                <article
+                    class="submit-btn first-item"
+                    data-aos="fade-right"
+                    data-aos-duration="600"
+                >
+                    <input type="button" value="Submit" class="submit-ic" />
+                </article>
+                <article
+                    class="discord-image third-item"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                >
+                    <img
+                        src="assets/images/button-sigil-discord.png"
+                        class="discord-icon"
+                    />
+                </article>
+                <article
+                    class="footer-inner second-item"
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                    data-aos-offset="0"
+                >
+                    <p class="submission-text">Thanks for submitting!</p>
+                    <figure class="albedo-logo">
+                        <img
+                            src="assets/images/logo-footer-albedo.png"
+                            width="100%"
+                        />
+                    </figure>
+                </article>
+                <article class="footer-inner fifth-item justify-content-center">
+                    <figure
+                        class="social-icons"
+                        data-aos="zoom-in"
+                        data-aos-delay="100"
+                        data-aos-duration="500"
+                        data-aos-offset="0"
+                    >
+                        <img
+                            src="assets/images/button-sigil-grey-facebook.png"
+                            width="100%"
+                        />
+                    </figure>
+                    <figure
+                        class="social-icons"
+                        data-aos="zoom-in"
+                        data-aos-delay="200"
+                        data-aos-duration="500"
+                        data-aos-offset="0"
+                    >
+                        <img
+                            src="assets/images/button-sigil-grey-twitter.png"
+                            width="100%"
+                        />
+                    </figure>
+                    <figure
+                        class="social-icons"
+                        data-aos="zoom-in"
+                        data-aos-delay="300"
+                        data-aos-duration="500"
+                        data-aos-offset="0"
+                    >
+                        <img
+                            src="assets/images/button-sigil-grey-youtube.png"
+                            width="100%"
+                        />
+                    </figure>
+                    <figure
+                        class="social-icons"
+                        data-aos="zoom-in"
+                        data-aos-delay="400"
+                        data-aos-duration="500"
+                        data-aos-offset="0"
+                    >
+                        <img
+                            src="assets/images/button-sigil-grey-instagram.png"
+                            width="100%"
+                        />
+                    </figure>
+                </article>
+                <article
+                    class="footer-inner forth-item justify-content-end"
+                    data-aos="fade-left"
+                    data-aos-duration="1800"
+                    data-aos-offset="0"
+                >
+                    <figure class="cmf-logo">
+                        <img
+                            src="assets/images/logo-footer-CMF.png"
+                            width="100%"
+                        />
+                    </figure>
+                </article>
+            </section>
+        </footer>
+    </body>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
 </html>

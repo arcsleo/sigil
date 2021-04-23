@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0 !important;
     font-family: 'Courier Prime';
     width: 100vw;
@@ -7,65 +7,66 @@ body{
 body::-webkit-scrollbar {
     width: 0.5em;
     border-radius: 50%;
-  }
-   
-  body::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-   
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
-  }
-.align-item-center{
+}
+.align-item-center {
     align-items: center;
 }
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
-.d-flex{
+.d-flex {
     display: flex;
 }
-.item-centering{
+.item-centering {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home-banner{
+.home-banner {
     height: 100vh;
     width: 100%;
-    background-image: url('../assets/images/gloam-background-only.jpg');
+    /* background-image: url('../assets/images/gloam-background-only.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+.container {
     width: 100%;
     height: 100vh;
     display: flex;
 }
-.center-section{
+.center-section {
     flex-wrap: wrap;
 }
-.jack-image{
+.jack-image {
     width: 100%;
 }
-.jack-img-class{
+.jack-img-class {
     width: 28vw;
     margin: 0px;
     margin-left: -16vw;
     animation: waveUpDown 2s infinite alternate;
 }
-.img-class{
+.img-class {
     width: 100%;
     margin: 0px !important;
 }
-.sigil-text{
+.sigil-text {
     width: 100%;
 }
-.sigil-logo{
+.sigil-logo {
     width: 100%;
+    margin-top: -20%;
 }
-.head-right{
+.head-right {
     width: 24vw;
     display: flex;
     align-items: center;
@@ -73,14 +74,14 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
     margin-left: -8vw;
 }
-.banner-head-text{
-    font-size: 24px;
+.banner-head-text {
+    font-size: 28px;
     width: 100%;
     font-weight: 800;
     color: #fff;
     text-align: center;
 }
-.banner-sub-text{
+.banner-sub-text {
     font-size: 22px;
     width: 100%;
     font-weight: 500;
@@ -89,111 +90,112 @@ body::-webkit-scrollbar {
     margin-top: 0px;
 }
 
-.second-banner{
+.second-banner {
     min-height: 100vh;
     width: 100%;
     /* background-image: url('../assets/images/background-sigil-multiverse.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
-.mobile-image{
+.mobile-image {
     width: 22vw;
     margin: 0px;
 }
-.mobile-icon{
+.mobile-icon {
     width: 100%;
 }
-.mobile-side{
+.mobile-side {
     width: 30vw;
     margin-left: 10vw;
     color: #fff;
     display: flex;
     justify-content: flex-end;
 }
-.mobile-sub-div{
+.mobile-sub-div {
     width: 18vw;
 }
-.mobile-head{
+.mobile-head {
     font-size: 35px;
     text-align: center;
 }
-.mobile-sub-head{
+.mobile-sub-head {
     font-size: 22px;
     text-align: center;
     letter-spacing: 0.2vw;
 }
-.third-banner{
+.third-banner {
     height: 100vh;
     width: 100%;
-    background-image: url('../assets/images/background-sigil-gloam-ferris-wheel.jpg');
+    /* background-image: url('../assets/images/background-sigil-gloam-ferris-wheel.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+}
+.fifth-banner {
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('../assets/images/background-sigil-combat.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
 }
-.fifth-banner{
+.sixth-banner {
     height: 100vh;
     width: 100%;
-    background-image: url('../assets/images/background-sigil-combat.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-}
-.sixth-banner{
-    height: 100vh;
-    width: 100%;
-    background-image: url('../assets/images/background-sigil-character-line-up.jpg');
+    /* background-image: url('../assets/images/background-sigil-character-line-up.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
 }
-.left-padding{
+.left-padding {
     padding-left: 25px;
     margin-bottom: 5px !important;
     text-align: left !important;
 }
-.second-left-padding{
+.second-left-padding {
     padding-left: 50px;
     margin: 0px !important;
     text-align: left !important;
 }
-.forth-banner{
+.forth-banner {
     min-height: 100vh;
     width: 100%;
     background-color: #fff;
     display: flex;
 }
-.color-black{
+.color-black {
     color: #000;
 }
-.color-white{
+.color-white {
     color: #fff;
 }
-.forth-inner{
+.forth-inner {
     align-items: flex-end;
     justify-content: flex-end;
 }
-.avatar-image{
+.avatar-image {
     width: 22vw;
     margin: 0px !important;
 }
-.avatar-inner-image{
+.avatar-inner-image {
     width: 55vw;
     margin: 0px !important;
 }
-.avatar-side{
+.avatar-side {
     width: 75vw;
     justify-content: flex-end;
     display: flex;
     flex-wrap: wrap;
 }
-.wheel-sub-div{
+.wheel-sub-div {
     width: 35vw;
     font-size: 25px;
     letter-spacing: 0.1em;
 }
-.footer-section{
+.footer-section {
     padding: 2vw 2vw;
     overflow-x: hidden;
     padding-bottom: 12vw !important;
@@ -201,20 +203,20 @@ body::-webkit-scrollbar {
     align-items: flex-end;
     flex-wrap: wrap;
 }
-.first-section{
+.first-section {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.second-section{
+.second-section {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     width: 100%;
     margin-top: 2vw;
 }
-.sign-up{
+.sign-up {
     width: 46vw;
     padding: 1vw;
     font-size: 18px;
@@ -222,14 +224,14 @@ body::-webkit-scrollbar {
     background-color: rgba(255, 230, 135);
     margin: 0px !important;
 }
-.submit-btn{
+.submit-btn {
     width: 20vw;
     margin-left: 2vw;
 }
-.submit-ic:hover{
+.submit-ic:hover {
     padding: 1.2vw 1.2vw !important;
 }
-.submit-ic{
+.submit-ic {
     width: 19vw;
     background-color: rgba(55, 59, 77, 1);
     padding: 1vw;
@@ -240,34 +242,34 @@ body::-webkit-scrollbar {
     font-style: italic;
     cursor: pointer;
 }
-.discord-image{
+.discord-image {
     width: 20vw;
     margin-left: 5vw;
 }
-.discord-icon{
+.discord-icon {
     width: 100%;
 }
-.footer-inner{
+.footer-inner {
     width: 31.33vw;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
 }
-.submission-text{
+.submission-text {
     font-size: 18px;
     width: 100%;
     color: green;
 }
-.albedo-logo{
+.albedo-logo {
     width: 13vw;
     margin-left: 0px !important;
     margin-bottom: 0px !important;
     margin: 0px !important;
 }
-.justify-content-end{
+.justify-content-end {
     justify-content: flex-end;
 }
-.cmf-logo{
+.cmf-logo {
     margin: 0px;
     width: 20vw;
 }
@@ -276,20 +278,20 @@ figure.social-icons {
     width: 3vw;
     cursor: pointer;
 }
-.social-icons img:hover{
+.social-icons img:hover {
     width: 3.4vw !important;
 }
 
 /* media query for extra-wide screen */
 
 @media only screen and (min-width: 2200px) {
-    .wheel-sub-div{
+    .wheel-sub-div {
         font-size: 45px !important;
     }
-    .banner-head-text{
+    .banner-head-text {
         font-size: 45px !important;
     }
-    .banner-sub-text{
+    .banner-sub-text {
         font-size: 40px !important;
     }
     .mobile-head {
@@ -298,22 +300,21 @@ figure.social-icons {
     .mobile-sub-head {
         font-size: 35px !important;
     }
-    .sign-up{
+    .sign-up {
         font-size: 25px !important;
     }
-    .submit-ic{
-        font-size: 25px !important
-    }
-    .submission-text{
+    .submit-ic {
         font-size: 25px !important;
     }
-    
+    .submission-text {
+        font-size: 25px !important;
+    }
 }
 
 /* media query for wide screen */
 
 @media only screen and (min-width: 1366px) {
-    .container{
+    .container {
         max-width: 1400px !important;
     }
 }
@@ -321,13 +322,13 @@ figure.social-icons {
 /* media query for normal screen */
 
 @media only screen and (min-width: 700px) and (max-width: 1365px) {
-    .container{
+    .container {
         max-width: 1200px !important;
     }
 }
 
 @media only screen and (max-width: 1100px) {
-    .container{
+    .container {
         max-width: 100% !important;
     }
     .mobile-sub-div {
@@ -339,46 +340,46 @@ figure.social-icons {
     .mobile-sub-head {
         font-size: 14px !important;
     }
-    .home-banner{
+    .home-banner {
         background-position: center;
     }
-    .third-banner{
+    .third-banner {
         background-position: center;
     }
-    .fifth-banner{
+    .fifth-banner {
         background-position: center;
     }
-    .sixth-banner{
+    .sixth-banner {
         background-position: center;
     }
     .second-banner {
         background-position: center;
     }
-    .banner-head-text{
+    .banner-head-text {
         font-size: 20px !important;
     }
     .banner-sub-text {
         font-size: 14px !important;
     }
-    .wheel-sub-div{
+    .wheel-sub-div {
         width: 35vw !important;
         font-size: 14px !important;
     }
-    .avatar-image{
+    .avatar-image {
         width: 30vw !important;
     }
-    .avatar-side{
+    .avatar-side {
         width: 70vw !important;
     }
-    .sign-up{
+    .sign-up {
         font-size: 7px !important;
     }
-    .submit-ic{
-        font-size: 10px !important
+    .submit-ic {
+        font-size: 10px !important;
     }
-    .submission-text{
+    .submission-text {
         font-size: 7px !important;
-    }    
+    }
 }
 
 /* media query for mobile */
@@ -394,7 +395,7 @@ figure.social-icons {
     .mobile-image {
         width: 50vw !important;
     }
-    .wheel-sub-div{
+    .wheel-sub-div {
         width: 60vw !important;
         font-size: 14px !important;
     }
@@ -404,55 +405,55 @@ figure.social-icons {
     .mobile-head {
         font-size: 16px !important;
     }
-    .mobile-side{
+    .mobile-side {
         margin-left: 0px !important;
     }
-    .left-padding{
+    .left-padding {
         width: 75vw !important;
     }
-    .second-left-padding{
+    .second-left-padding {
         width: 75vw !important;
     }
     .banner-height {
         overflow-x: hidden;
         width: 100vw;
     }
-    .second-section-div{
+    .second-section-div {
         flex-wrap: wrap;
     }
-    .mobile-side{
+    .mobile-side {
         width: 55vw !important;
     }
-    
+
     /* .third-banner{
         align-items: flex-end !important;
         justify-content: center !important;
     } */
-    .fifth-banner{
+    .fifth-banner {
         align-items: flex-end !important;
         justify-content: center !important;
     }
-    .forth-inner{
+    .forth-inner {
         align-items: flex-start !important;
         justify-content: center !important;
     }
-    .avatar-inner-image{
+    .avatar-inner-image {
         width: 75vw !important;
         order: 1;
     }
-    .avatar-text{
+    .avatar-text {
         order: 2;
     }
-    .wheel-sub-head{
+    .wheel-sub-head {
         text-align: center;
     }
     .avatar-image {
         width: 23vw !important;
     }
-    .avatar-side{
+    .avatar-side {
         justify-content: flex-start;
     }
-    .footer-section{
+    .footer-section {
         /* padding-bottom: 30vw !important; */
     }
     .third-banner .wheel-sub-div {
@@ -472,57 +473,57 @@ figure.social-icons {
     .discord-image {
         margin: 0px !important;
     }
-    .first-section{
+    .first-section {
         flex-wrap: wrap;
     }
-    .first-item{
+    .first-item {
         order: 1;
     }
-    .second-item{
+    .second-item {
         order: 2;
     }
-    .third-item{
+    .third-item {
         order: 3;
     }
-    .forth-item{
+    .forth-item {
         order: 4;
     }
-    .fifth-item{
+    .fifth-item {
         order: 5;
     }
-    .footer-section{
+    .footer-section {
         justify-content: center;
     }
-    .second-section{
+    .second-section {
         flex-wrap: wrap;
     }
-    .footer-inner{
+    .footer-inner {
         width: 100vw;
         margin-top: 2vw;
         justify-content: center;
     }
-    .submission-text{
+    .submission-text {
         text-align: center;
     }
-    .submission-text{
+    .submission-text {
         font-size: 10px !important;
-    } 
-    .discord-image{
+    }
+    .discord-image {
         margin-top: 4vw !important;
     }
     .sign-up {
         font-size: 10px !important;
-    }   
-    .albedo-logo{
+    }
+    .albedo-logo {
         width: 25vw !important;
     }
-    .cmf-logo{
+    .cmf-logo {
         width: 35vw !important;
     }
-    .social-icons{
+    .social-icons {
         width: 7vw !important;
     }
-    .social-icons img:hover{
+    .social-icons img:hover {
         width: 7.4vw !important;
     }
     .submit-btn {
@@ -535,8 +536,8 @@ figure.social-icons {
     0% {
         transform: translateY(-10px);
     }
-    
+
     100% {
         transform: translateY(10px);
     }
-  }
+}
