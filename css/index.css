@@ -195,6 +195,7 @@ body::-webkit-scrollbar {
 }
 .footer-section{
     padding: 2vw 2vw;
+    overflow-x: hidden;
     padding-bottom: 6vw !important;
 }
 .first-section{
@@ -394,7 +395,7 @@ figure.social-icons {
         font-size: 14px !important;
     }
     .mobile-sub-head {
-        font-size: 7px !important;
+        font-size: 14px !important;
     }
     .mobile-head {
         font-size: 12px !important;
@@ -448,7 +449,7 @@ figure.social-icons {
         justify-content: flex-start;
     }
     .footer-section{
-        padding-bottom: 30vw !important;
+        /* padding-bottom: 30vw !important; */
     }
     .third-banner .wheel-sub-div {
         width: 55vw !important;
@@ -492,7 +493,10 @@ figure.social-icons {
     }
     .submission-text{
         font-size: 10px !important;
-    }    
+    } 
+    .sign-up {
+        font-size: 10px !important;
+    }   
     .albedo-logo{
         width: 25vw !important;
     }
@@ -504,6 +508,10 @@ figure.social-icons {
     }
     .social-icons img:hover{
         width: 7.4vw !important;
+    }
+    .submit-btn {
+        display: flex;
+        align-items: center;
     }
 }
 
